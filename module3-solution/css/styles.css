@@ -26,6 +26,7 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
+
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -36,23 +37,21 @@ body {
 #nav-list {
   margin-top: 10px;
 }
-#nav-list a {
+#nav-list li {
   color: #0b4f6c;
   text-align: center;
 
 }
-#nav-list a:hover {
+#nav-list li:hover {
   background: #E7E7E7;
 }
 #nav-list a span {
   font-size: 1.8em;
 }
 
-
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+.navbar-header button.navbar-toggle {
   border: 2px solid #0b4f6c;
-  }
+}
 
   .navbar-header button.navbar-toggle {
   margin-top: ;
@@ -63,16 +62,13 @@ body {
 /* HOME PAGE */
 
 p {
-  text-align: center;
   font-size: 1.8em;
   font-family: Florence, cursive;
   margin: 40px auto 40px;
   color: #0b4f6c;
-
 }
 
 #within-container {
-   text-align: center;
   font-size: 1.5em;
   font-family: Florence, cursive;
   margin: 40px auto 40px;
@@ -86,11 +82,17 @@ p {
  
 }
 
-#main-content {
+.col-xs-12 {
   background-color: #09D0cc;
-  width: 90%;
+  width: 100%;
   height: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
+section.continer-fluid {
+padding-left: 10px;
+padding-right: 10px;
 }
 
 
